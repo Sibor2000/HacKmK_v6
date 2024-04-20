@@ -9,13 +9,6 @@ geolocator = Nominatim(user_agent="my_app")
 # Get location coordinates for Berlin
 location = geolocator.geocode("Berlin")
 
-# Print latitude and longitude
-if location:
-    print("Latitude:", location.latitude)
-    print("Longitude:", location.longitude)
-else:
-    print("Location not found.")
-
 
 st.set_page_config(page_title="Konnekt - Berlin's District", page_icon=":car:", layout="wide")
 
