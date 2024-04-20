@@ -53,15 +53,29 @@ folium.Choropleth(
     data=waaa,  # DataFrame containing metric values for each district
     columns=['sch', 'count'],  # Specify the column names
     key_on='properties.sch',  # Path to the feature property containing the district code
-    fill_color='YlGn',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
+    fill_color='OrRd',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
     fill_opacity=0.7,  # Opacity of the fill color
     line_opacity=0.2,  # Opacity of the boundary lines
-    nan_fill_color="purple",
+    nan_fill_color="gray",
     nan_fill_opacity=0.4,
-    legend_name='Number of Complaints',  # Name of the legend
+    legend_name='Number of Complaints'  # Name of the legend
 ).add_to(fmap)
 
-folium.GeoJson(smaller_districts).add_to(fmap)
+for feature in smaller_districts_copy['features']:
+    # Find the count for the district code in the DataFrame
+    count_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['count']
+    # Check if the count series is not empty
+    if not count_series.empty:
+        count = count_series.values[0]
+    else:
+        # If the district code is not found in the DataFrame, set count to 0
+        count = 0
+    folium.GeoJson(
+        feature,
+        tooltip=f"<b>District Code:</b> {feature['properties']['sch']} <br><b>Complaint Count:</b> {count}",
+        ).add_to(fmap)
+
+# folium.GeoJson(smaller_districts).add_to(fmap)
 
 
 larger_districts_fg = folium.FeatureGroup(name="Larger Districts")
@@ -98,13 +112,14 @@ for feature in smaller_districts['features']:
         folium.GeoJson(feature).add_to(smaller_districts_by_code[larger_district_code])
 
 for fg in smaller_districts_by_code.values():
-    fg.add_to(fmap)
+    # fg.add_to(fmap)
+    pass
 
 # Add feature groups to the map
 # fg.add_to(fmap)
 # larger_districts_fg.add_to(fmap)
 
-selected_districts_fg.add_to(fmap)
+# selected_districts_fg.add_to(fmap)
 
 folium.LayerControl().add_to(fmap)
 
