@@ -69,13 +69,17 @@ def main():
     print("Done!")
 
     # Combine the two files
-    data1 = pd.read_csv("Berlin_crimes_geolocated.csv")
-    data2 = pd.read_csv("Berlin_crimes_missing_geolocated.csv")
-    data = pd.concat([data1, data2])
+    # data1 = pd.read_csv("Berlin_crimes_geolocated.csv")
+    # data2 = pd.read_csv("Berlin_crimes_missing_geolocated.csv")
+    # data = pd.concat([data1, data2])
 
     # Only keep the entries with valid location data
-    data = data.dropna(subset=['Latitude', 'Longitude'])
-    data.to_csv("Berlin_crimes_geolocated_combined.csv", index=False)
+    # data = data.dropna(subset=['Latitude', 'Longitude'])
+    # data.to_csv("Berlin_crimes_geolocated_combined.csv", index=False)
+
+    df = pd.read_csv("Berlin_crimes_geolocated_combined.csv")
+    # Print columns
+    print(df.columns)
 
 if __name__ == "__main__":
     main()
