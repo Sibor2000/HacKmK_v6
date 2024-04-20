@@ -28,23 +28,36 @@ with open(berlin_hoods_geojson, 'r', encoding='utf-8') as f:
 
 smaller_districts_copy = copy.deepcopy(smaller_districts)
 
-complaints_df = pd.read_csv("./data/complaints.csv")
+# complaints_df = pd.read_csv("./data/waaa.csv")
 
-for feature in smaller_districts_copy['features']:
-    feature['properties']['sch'] = int(feature['properties']['sch'][6:])
-    # print(feature['properties']['sch'])
+# for feature in smaller_districts_copy['features']:
+#     feature['properties']['sch'] = int(feature['properties']['sch'][6:])
+#     # print(feature['properties']['sch'])
 
-district_counts = complaints_df.groupby('Code').size().reset_index(name='count')
+# district_counts = complaints_df.groupby('Location').size().reset_index(name='count')
 
+# for code in district_counts['Location']:
+#     # Find the corresponding feature in the GeoJSON
+#     for feature in smaller_districts_copy['features']:
+#         if feature['properties']['sch'] == code:
+#             # Add the count to the feature properties
+#             feature['properties']['count'] = int(district_counts[district_counts['Location'] == code]['count'])
+#             break
+    
+#     print(f"Could not find district with code {code}")
+
+waaa = pd.read_csv("./data/waaa_count.csv")
 
 folium.Choropleth(
     geo_data=smaller_districts_copy,
-    data=district_counts,  # DataFrame containing metric values for each district
-    columns=['Code', 'count'],  # Specify the column names
-    key_on='properties.sch',  # Match with the new property containing the desired digits
+    data=waaa,  # DataFrame containing metric values for each district
+    columns=['sch', 'count'],  # Specify the column names
+    key_on='properties.sch',  # Path to the feature property containing the district code
     fill_color='YlGn',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
     fill_opacity=0.7,  # Opacity of the fill color
     line_opacity=0.2,  # Opacity of the boundary lines
+    nan_fill_color="purple",
+    nan_fill_opacity=0.4,
     legend_name='Number of Complaints',  # Name of the legend
 ).add_to(fmap)
 
