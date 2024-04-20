@@ -1,0 +1,501 @@
+Complaint,Time,Location,sch,District
+Late,19:53:04,Lankwitz,110000060603,Steglitz-Zehlendorf
+Other,12:32:55,Westend,110000040405,Charlottenburg-Wilmersdorf
+Late,16:39:54,Albrechtstr.,110000060601,Steglitz-Zehlendorf
+Damaged Product,16:49:36,Drakestr.,110000060602,Steglitz-Zehlendorf
+Wrong product,18:49:00,Halensee,110000040407,Charlottenburg-Wilmersdorf
+Damaged Product,05:30:16,Schmöckwitz/Karolinenhof/Rauchfangswerder,110000090910,Treptow-Köpenick
+Late,10:46:41,Prenzlauer Berg Nord,110000030301,Pankow
+Other,19:58:25,Schillerpromenade,110000080801,Neukölln
+Late,10:34:41,Karl-Marx-Allee-Süd,110000020202,Friedrichshain-Kreuzberg
+Late,05:57:48,Alexanderplatz,110000010101,Mitte
+Missing Product,08:36:48,Parkviertel,110000010101,Mitte
+Late,11:06:01,Prenzlauer Berg Ost,110000030301,Pankow
+Damaged Product,00:51:31,Neu Lichtenberg,110000111109,Lichtenberg
+Other,10:37:03,Alexanderplatz,110000010101,Mitte
+Damaged Product,10:52:32,Barstraße,110000040402,Charlottenburg-Wilmersdorf
+Other,14:54:51,Hakenfelde,110000050507,Spandau
+Wrong product,03:50:03,Alt-Hohenschönhausen Nord,110000111110,Lichtenberg
+Other,11:43:51,Alexanderplatz,110000010101,Mitte
+Other,10:30:41,Alexanderplatz,110000010101,Mitte
+Damaged Product,20:17:27,Prenzlauer Berg Süd,110000030310,Pankow
+Late,21:51:32,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Missing Product,11:33:52,"Malchow, Wartenberg und Falkenberg",110000111101,Lichtenberg
+Wrong product,19:41:09,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Other,22:04:07,Johannisthal,110000090904,Treptow-Köpenick
+Other,01:58:47,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Late,18:59:04,Otto-Suhr-Allee,110000040401,Charlottenburg-Wilmersdorf
+Missing Product,05:21:41,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,11:28:15,Mariendorf,110000070704,Tempelhof-Schöneberg
+Late,13:04:17,Friedrichsfelde Nord,110000111103,Lichtenberg
+Missing Product,10:19:10,Alexanderplatz,110000010101,Mitte
+Late,04:05:56,"Bezirk (Mi), nicht zuzuordnen",110000010101,Mitte
+Late,19:45:39,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,22:35:50,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Missing Product,10:52:05,Alexanderplatz,110000010101,Mitte
+Damaged Product,07:20:28,"Bezirk (Ch-Wi), nicht zuzuordnen",110000040405,Charlottenburg-Wilmersdorf
+Missing Product,10:50:05,Alexanderplatz,110000010101,Mitte
+Damaged Product,18:49:19,Prenzlauer Berg Nordwest,110000030310,Pankow
+Late,04:06:02,Alt-Hohenschönhausen Nord,110000111110,Lichtenberg
+Damaged Product,07:23:54,Lichtenrade,110000070706,Tempelhof-Schöneberg
+Wrong product,04:31:26,Haselhorst,110000050502,Spandau
+Late,11:02:38,Siemensstadt,110000050503,Spandau
+Other,10:36:32,Alexanderplatz,110000010101,Mitte
+Missing Product,10:21:34,Alexanderplatz,110000010101,Mitte
+Missing Product,17:01:31,Friedenau,110000070702,Tempelhof-Schöneberg
+Missing Product,10:35:53,Alexanderplatz,110000010101,Mitte
+Missing Product,11:41:56,Alexanderplatz,110000010101,Mitte
+Wrong product,09:23:50,Hakenfelde,110000050507,Spandau
+Damaged Product,21:55:39,"Bezirk (Tp-Kp), nicht zuzuordnen",110000090910,Treptow-Köpenick
+Other,01:29:46,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,20:59:49,Hellersdorf-Ost,110000101005,Marzahn-Hellersdorf
+Other,23:15:03,"Bezirk (Ch-Wi), nicht zuzuordnen",110000040405,Charlottenburg-Wilmersdorf
+Other,23:32:39,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Wrong product,22:05:14,Neu-Hohenschönhausen Nord,110000111109,Lichtenberg
+Wrong product,00:53:32,Brunnenstraße Nord,110000010101,Mitte
+Late,00:01:25,Neu Lichtenberg,110000111109,Lichtenberg
+Damaged Product,08:52:23,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Wrong product,19:30:44,Niederschöneweide,110000090905,Treptow-Köpenick
+Late,15:25:26,Volkspark Wilmersdorf,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,07:00:52,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Damaged Product,10:17:36,Buckow Nord,110000080803,Neukölln
+Damaged Product,16:32:06,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Late,17:07:31,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,12:00:43,Altstadt-Kietz,110000090910,Treptow-Köpenick
+Damaged Product,10:49:42,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Late,21:16:55,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Late,15:01:23,Köpenick-Süd,110000090910,Treptow-Köpenick
+Damaged Product,05:15:50,Wedding Zentrum,110000010105,Mitte
+Damaged Product,23:18:37,Friedrichsfelde Süd,110000111101,Lichtenberg
+Damaged Product,11:50:29,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Wrong product,07:42:15,Marzahn-Mitte,110000101001,Marzahn-Hellersdorf
+Other,13:14:28,Westend,110000040405,Charlottenburg-Wilmersdorf
+Late,18:05:38,Baumschulenweg,110000090903,Treptow-Köpenick
+Other,08:59:27,Spandau Mitte,110000050501,Spandau
+Late,06:32:51,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Damaged Product,02:46:43,Marzahn-Süd,110000101001,Marzahn-Hellersdorf
+Late,14:42:54,Friedrichsfelde Süd,110000111101,Lichtenberg
+Missing Product,09:11:07,Frankfurter Allee Süd FK,110000020202,Friedrichshain-Kreuzberg
+Missing Product,11:00:39,Alexanderplatz,110000010101,Mitte
+Late,01:44:32,Tempelhof,110000070703,Tempelhof-Schöneberg
+Other,16:36:34,Buckow Nord,110000080803,Neukölln
+Other,16:23:57,MV 2 - Rollbergsiedlung,110000121201,Reinickendorf
+Wrong product,12:00:17,Alt-Lichtenberg,110000111103,Lichtenberg
+Damaged Product,08:39:34,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Damaged Product,22:44:04,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Missing Product,11:26:56,Alexanderplatz,110000010101,Mitte
+Damaged Product,13:41:09,Frankfurter Allee Süd,110000111103,Lichtenberg
+Missing Product,11:32:32,Alexanderplatz,110000010101,Mitte
+Late,22:03:21,Prenzlauer Berg Süd,110000030310,Pankow
+Damaged Product,15:01:41,Brunnenstraße Süd,110000010101,Mitte
+Wrong product,07:26:16,MV 1 - Märkisches Viertel,110000121210,Reinickendorf
+Missing Product,13:29:58,Gatow/Kladow,110000050505,Spandau
+Wrong product,11:40:13,Köllnische Vorstadt/Spindlersfeld,110000090910,Treptow-Köpenick
+Missing Product,11:10:48,Alexanderplatz,110000010101,Mitte
+Late,15:50:21,Schillerpromenade,110000080801,Neukölln
+Late,05:49:21,Weißensee Ost,110000030310,Pankow
+Damaged Product,02:00:34,Baumschulenweg,110000090903,Treptow-Köpenick
+Late,12:11:58,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Damaged Product,06:57:49,Zehlendorf Südwest,110000060602,Steglitz-Zehlendorf
+Missing Product,11:55:13,Alexanderplatz,110000010101,Mitte
+Missing Product,10:34:03,Alexanderplatz,110000010101,Mitte
+Late,19:43:29,"Bezirk (Lb), nicht zuzuordnen",110000111109,Lichtenberg
+Wrong product,18:55:42,Bohnsdorf,110000090908,Treptow-Köpenick
+Missing Product,23:13:21,Dammvorstadt,110000090910,Treptow-Köpenick
+Other,22:31:16,Britz,110000080802,Neukölln
+Other,20:53:18,Albrechtstr.,110000060601,Steglitz-Zehlendorf
+Late,00:43:41,Plänterwald,110000090902,Treptow-Köpenick
+Damaged Product,14:44:17,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,20:00:28,Moabit West,110000010102,Mitte
+Late,11:41:50,Johannisthal,110000090904,Treptow-Köpenick
+Wrong product,11:03:56,"Bezirk (Lb), nicht zuzuordnen",110000111109,Lichtenberg
+Late,22:58:40,Otto-Suhr-Allee,110000040401,Charlottenburg-Wilmersdorf
+Late,04:13:13,Altstadt-Kietz,110000090910,Treptow-Köpenick
+Late,16:29:54,Grünau,110000090913,Treptow-Köpenick
+Other,16:18:55,"Bezirk (Nk), nicht zuzuordnen",110000080801,Neukölln
+Late,03:48:43,Frankfurter Allee Süd FK,110000020202,Friedrichshain-Kreuzberg
+Wrong product,16:45:39,Halensee,110000040407,Charlottenburg-Wilmersdorf
+Wrong product,01:56:12,Schönholz/Wilhelmsruh/Rosenthal,110000030310,Pankow
+Missing Product,11:42:57,Alexanderplatz,110000010101,Mitte
+Other,10:28:37,Alexanderplatz,110000010101,Mitte
+Missing Product,06:52:35,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Late,06:42:42,Karow,110000030305,Pankow
+Other,16:49:17,Brunsbütteler Damm,110000050504,Spandau
+Wrong product,09:26:02,Buch,110000030309,Pankow
+Wrong product,19:52:25,Parkviertel,110000010101,Mitte
+Damaged Product,21:55:37,Karl-Marx-Allee-Nord,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,18:37:36,Frankfurter Allee Süd,110000111103,Lichtenberg
+Other,04:10:43,Frankfurter Allee Süd FK,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,02:45:04,Gropiusstadt,110000080805,Neukölln
+Damaged Product,12:25:21,Marienfelde,110000070705,Tempelhof-Schöneberg
+Damaged Product,09:37:17,Fennpfuhl,110000111111,Lichtenberg
+Damaged Product,16:34:49,Frankfurter Allee Nord,110000020202,Friedrichshain-Kreuzberg
+Late,15:04:05,Frankfurter Allee Nord,110000020202,Friedrichshain-Kreuzberg
+Missing Product,11:21:31,Plänterwald,110000090902,Treptow-Köpenick
+Other,14:13:17,Weißensee Ost,110000030310,Pankow
+Damaged Product,15:56:30,Karow,110000030305,Pankow
+Damaged Product,16:31:56,Prenzlauer Berg Südwest,110000030310,Pankow
+Missing Product,11:37:35,Alexanderplatz,110000010101,Mitte
+Damaged Product,08:01:08,Marzahn-Süd,110000101001,Marzahn-Hellersdorf
+Damaged Product,21:05:36,Heerstraße Nord,110000050504,Spandau
+Missing Product,11:09:08,Alexanderplatz,110000010101,Mitte
+Late,06:18:23,Brunsbütteler Damm,110000050504,Spandau
+Late,07:56:30,Ostpreußendamm,110000060602,Steglitz-Zehlendorf
+Late,21:31:07,Johannisthal,110000090904,Treptow-Köpenick
+Damaged Product,09:25:22,"Bezirk (Ch-Wi), nicht zuzuordnen",110000040405,Charlottenburg-Wilmersdorf
+Damaged Product,21:52:09,Buchholz,110000030310,Pankow
+Other,17:30:31,Otto-Suhr-Allee,110000040401,Charlottenburg-Wilmersdorf
+Late,18:05:34,Alexanderplatz,110000010101,Mitte
+Missing Product,16:07:22,Schillerpromenade,110000080801,Neukölln
+Other,07:06:15,Blankenburg/Heinersdorf/Märchenland,110000030310,Pankow
+Damaged Product,09:18:29,Alt-Treptow,110000090901,Treptow-Köpenick
+Damaged Product,11:38:12,Allende-Viertel,110000090910,Treptow-Köpenick
+Damaged Product,06:56:42,Albrechtstr.,110000060601,Steglitz-Zehlendorf
+Late,16:07:36,Schillerpromenade,110000080801,Neukölln
+Other,06:05:36,Westend,110000040405,Charlottenburg-Wilmersdorf
+Wrong product,13:34:15,MV 1 - Märkisches Viertel,110000121210,Reinickendorf
+Wrong product,04:31:15,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Damaged Product,13:34:19,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,22:08:27,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Other,13:43:51,Buckow,110000080803,Neukölln
+Wrong product,14:05:39,Zehlendorf Nord,110000060605,Steglitz-Zehlendorf
+Other,19:36:00,Prenzlauer Berg Nord,110000030301,Pankow
+Damaged Product,09:06:19,Pankow Zentrum,110000030311,Pankow
+Missing Product,11:48:12,Alexanderplatz,110000010101,Mitte
+Damaged Product,01:35:52,Neu Lichtenberg,110000111109,Lichtenberg
+Missing Product,20:35:41,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Other,01:18:08,Schmargendorf,110000040403,Charlottenburg-Wilmersdorf
+Other,11:25:26,Regierungsviertel,110000010104,Mitte
+Damaged Product,01:41:59,Hellersdorf-Ost,110000101005,Marzahn-Hellersdorf
+Other,10:21:01,Alexanderplatz,110000010101,Mitte
+Wrong product,20:26:27,Mahlsdorf,110000101004,Marzahn-Hellersdorf
+Other,10:26:22,Alexanderplatz,110000010101,Mitte
+Late,12:55:48,Prenzlauer Berg Ost,110000030301,Pankow
+Damaged Product,00:34:43,Fennpfuhl,110000111111,Lichtenberg
+Other,13:04:16,Alt-Treptow,110000090901,Treptow-Köpenick
+Missing Product,10:02:51,Prenzlauer Berg Süd,110000030310,Pankow
+Other,11:47:16,Neu-Hohenschönhausen Süd,110000111101,Lichtenberg
+Damaged Product,16:34:28,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Late,13:20:48,Müggelheim,110000090914,Treptow-Köpenick
+Other,06:24:50,Frankfurter Allee Nord,110000020202,Friedrichshain-Kreuzberg
+Other,23:35:37,Grünau,110000090913,Treptow-Köpenick
+Late,22:44:26,Halensee,110000040407,Charlottenburg-Wilmersdorf
+Late,21:09:27,"Bezirk (Tp-Kp), nicht zuzuordnen",110000090910,Treptow-Köpenick
+Damaged Product,14:10:55,Helmholtzplatz,110000030301,Pankow
+Late,19:54:52,Südliche Friedrichstadt,110000020202,Friedrichshain-Kreuzberg
+Wrong product,21:03:19,Heerstrasse,110000040405,Charlottenburg-Wilmersdorf
+Other,11:05:14,Alexanderplatz,110000010101,Mitte
+Missing Product,16:13:28,Zehlendorf Nord,110000060605,Steglitz-Zehlendorf
+Missing Product,08:52:35,Prenzlauer Berg Südwest,110000030310,Pankow
+Damaged Product,15:53:01,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Other,10:23:08,Köpenick-Nord,110000090910,Treptow-Köpenick
+Damaged Product,23:05:42,Schöneberg-Nord,110000070701,Tempelhof-Schöneberg
+Wrong product,03:31:32,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Late,22:22:57,Schöneberg-Nord,110000070701,Tempelhof-Schöneberg
+Wrong product,04:34:16,Moabit Ost,110000010102,Mitte
+Missing Product,10:54:30,Alexanderplatz,110000010101,Mitte
+Late,10:21:33,Lankwitz,110000060603,Steglitz-Zehlendorf
+Late,17:16:32,Biesdorf,110000101002,Marzahn-Hellersdorf
+Late,23:29:47,Weißensee,110000030302,Pankow
+Damaged Product,17:01:42,Moabit Ost,110000010102,Mitte
+Late,18:45:13,Moabit Ost,110000010102,Mitte
+Damaged Product,00:47:55,Blankenburg/Heinersdorf/Märchenland,110000030310,Pankow
+Damaged Product,03:27:03,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Missing Product,05:42:45,Falkenhagener Feld,110000050508,Spandau
+Late,10:56:39,Marzahn-Nord,110000101001,Marzahn-Hellersdorf
+Missing Product,10:10:45,Alexanderplatz,110000010101,Mitte
+Damaged Product,23:14:46,Adlershof,110000090907,Treptow-Köpenick
+Damaged Product,19:23:54,Altglienicke,110000090906,Treptow-Köpenick
+Wrong product,19:35:01,Alexanderplatz,110000010101,Mitte
+Damaged Product,17:25:17,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Missing Product,16:29:53,Dammvorstadt,110000090910,Treptow-Köpenick
+Damaged Product,05:59:22,Prenzlauer Berg Ost,110000030301,Pankow
+Missing Product,03:03:51,"Bezirk (Ch-Wi), nicht zuzuordnen",110000040405,Charlottenburg-Wilmersdorf
+Other,02:00:41,Karow,110000030305,Pankow
+Missing Product,10:23:17,Alexanderplatz,110000010101,Mitte
+Wrong product,22:31:17,Marzahn-Süd,110000101001,Marzahn-Hellersdorf
+Missing Product,02:21:07,Altglienicke,110000090906,Treptow-Köpenick
+Damaged Product,15:16:42,Neu-Hohenschönhausen Süd,110000111101,Lichtenberg
+Other,20:39:29,Karl-Marx-Allee-Süd,110000020202,Friedrichshain-Kreuzberg
+Missing Product,11:16:04,Alexanderplatz,110000010101,Mitte
+Other,09:29:01,Wilhelmstadt,110000050509,Spandau
+Damaged Product,05:12:00,Prenzlauer Berg Ost,110000030301,Pankow
+Late,18:29:35,südliche Luisenstadt,110000020202,Friedrichshain-Kreuzberg
+Missing Product,06:54:08,Karow,110000030305,Pankow
+Other,23:03:59,Neue Kantstraße,110000040405,Charlottenburg-Wilmersdorf
+Damaged Product,03:39:10,Brunnenstraße Süd,110000010101,Mitte
+Missing Product,20:49:50,Westend,110000040405,Charlottenburg-Wilmersdorf
+Wrong product,15:09:55,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Damaged Product,17:08:16,Moabit Ost,110000010102,Mitte
+Other,12:12:40,Schöneberg-Süd,110000070701,Tempelhof-Schöneberg
+Damaged Product,20:40:18,Adlershof,110000090907,Treptow-Köpenick
+Late,18:24:13,Grünau,110000090913,Treptow-Köpenick
+Damaged Product,15:33:50,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Late,22:01:09,Weißensee,110000030302,Pankow
+Wrong product,10:58:13,Friedrichshagen,110000090911,Treptow-Köpenick
+Damaged Product,00:23:21,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Late,22:36:05,Neuköllner Mitte/Zentrum,110000080801,Neukölln
+Other,11:53:50,Schöneberg-Süd,110000070701,Tempelhof-Schöneberg
+Damaged Product,02:44:04,Friedenau,110000070702,Tempelhof-Schöneberg
+Other,11:55:54,Alexanderplatz,110000010101,Mitte
+Late,11:51:45,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,19:49:06,Volkspark Wilmersdorf,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,02:24:16,Niederschöneweide,110000090905,Treptow-Köpenick
+Wrong product,11:09:01,Karl-Marx-Allee-Süd,110000020202,Friedrichshain-Kreuzberg
+Missing Product,10:29:50,Alexanderplatz,110000010101,Mitte
+Damaged Product,20:35:54,Lichtenrade,110000070706,Tempelhof-Schöneberg
+Damaged Product,13:22:09,Köpenick-Süd,110000090910,Treptow-Köpenick
+Missing Product,11:51:24,Alexanderplatz,110000010101,Mitte
+Wrong product,06:56:26,Tiergarten Süd,110000010102,Mitte
+Late,12:52:42,Marzahn-Süd,110000101001,Marzahn-Hellersdorf
+Late,12:52:11,"Bezirk (Pk), nicht zuzuordnen",110000030302,Pankow
+Wrong product,20:48:37,Neu Lichtenberg,110000111109,Lichtenberg
+Missing Product,10:46:49,Alexanderplatz,110000010101,Mitte
+Missing Product,20:04:35,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Wrong product,09:54:10,Fennpfuhl,110000111111,Lichtenberg
+Other,14:19:24,Müggelheim,110000090914,Treptow-Köpenick
+Damaged Product,11:57:57,Pankow Zentrum,110000030311,Pankow
+Wrong product,20:50:14,Südliche Friedrichstadt,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,04:57:52,Köpenick-Süd,110000090910,Treptow-Köpenick
+Damaged Product,09:20:22,Baumschulenweg,110000090903,Treptow-Köpenick
+Wrong product,00:56:14,Neuköllner Mitte/Zentrum,110000080801,Neukölln
+Late,01:09:54,Köllnische Heide,110000080801,Neukölln
+Other,14:34:45,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Other,04:53:43,Köpenick-Nord,110000090910,Treptow-Köpenick
+Late,10:38:51,MV 2 - Rollbergsiedlung,110000121201,Reinickendorf
+Damaged Product,12:35:54,Plänterwald,110000090902,Treptow-Köpenick
+Damaged Product,18:54:03,Prenzlauer Berg Nord,110000030301,Pankow
+Wrong product,07:33:22,Forst Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Damaged Product,02:23:04,"Bezirk (Tp-Kp), nicht zuzuordnen",110000090910,Treptow-Köpenick
+Late,03:22:23,Neu Lichtenberg,110000111109,Lichtenberg
+Damaged Product,03:16:38,Marzahn-Süd,110000101001,Marzahn-Hellersdorf
+Damaged Product,17:46:37,Pankow Zentrum,110000030311,Pankow
+Late,01:25:43,Schöneberg-Nord,110000070701,Tempelhof-Schöneberg
+Wrong product,02:18:25,Lankwitz,110000060603,Steglitz-Zehlendorf
+Missing Product,23:36:49,Britz,110000080802,Neukölln
+Late,18:53:31,Neuköllner Mitte/Zentrum,110000080801,Neukölln
+Other,09:35:46,Köpenick-Süd,110000090910,Treptow-Köpenick
+Missing Product,05:34:02,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Missing Product,16:01:01,Hellersdorf-Süd,110000101005,Marzahn-Hellersdorf
+Missing Product,09:30:18,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Damaged Product,17:14:55,Haselhorst,110000050502,Spandau
+Damaged Product,17:57:09,Weißensee,110000030302,Pankow
+Damaged Product,14:25:57,"Bezirk (Sp), nicht zuzuordnen",110000050501,Spandau
+Missing Product,10:53:22,Alexanderplatz,110000010101,Mitte
+Damaged Product,03:36:32,Moabit Ost,110000010102,Mitte
+Damaged Product,18:30:05,Schöneberg-Süd,110000070701,Tempelhof-Schöneberg
+Late,17:39:31,Osloer Straße,110000010106,Mitte
+Missing Product,08:05:56,Nord 1 - Frohnau/Hermsdorf,110000121211,Reinickendorf
+Other,05:02:14,Buckow Nord,110000080803,Neukölln
+Damaged Product,10:58:09,Alt-Hohenschönhausen Nord,110000111110,Lichtenberg
+Missing Product,11:34:11,Alexanderplatz,110000010101,Mitte
+Damaged Product,15:17:13,Brunnenstraße Nord,110000010101,Mitte
+Wrong product,19:58:58,Gatow/Kladow,110000050505,Spandau
+Late,22:30:48,Spandau Mitte,110000050501,Spandau
+Missing Product,12:55:23,Friedrichsfelde Süd,110000111101,Lichtenberg
+Late,19:39:25,Karlshorst,110000111102,Lichtenberg
+Damaged Product,15:50:10,"Bezirk (Pk), nicht zuzuordnen",110000030302,Pankow
+Damaged Product,05:38:44,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Damaged Product,17:09:30,Karlshorst,110000111102,Lichtenberg
+Damaged Product,10:25:00,Karow,110000030305,Pankow
+Missing Product,08:59:12,Moabit Ost,110000010102,Mitte
+Late,02:04:27,Regierungsviertel,110000010104,Mitte
+Late,09:29:53,Rixdorf,110000080801,Neukölln
+Late,18:51:55,Rummelsburger Bucht,110000020201,Lichtenberg
+Missing Product,10:12:09,Alexanderplatz,110000010101,Mitte
+Other,18:39:13,nördliche Luisenstadt,110000020202,Friedrichshain-Kreuzberg
+Damaged Product,20:05:48,Drakestr.,110000060602,Steglitz-Zehlendorf
+Late,00:41:10,Schmöckwitz/Karolinenhof/Rauchfangswerder,110000090910,Treptow-Köpenick
+Late,11:55:47,Neu Lichtenberg,110000111109,Lichtenberg
+Late,16:35:57,Allende-Viertel,110000090910,Treptow-Köpenick
+Missing Product,09:43:40,Drakestr.,110000060602,Steglitz-Zehlendorf
+Wrong product,07:07:21,Prenzlauer Berg Nordwest,110000030310,Pankow
+Late,10:30:38,Tempelhof,110000070703,Tempelhof-Schöneberg
+Damaged Product,08:00:31,Prenzlauer Berg Süd,110000030310,Pankow
+Damaged Product,21:08:11,Ostpreußendamm,110000060602,Steglitz-Zehlendorf
+Damaged Product,12:15:19,Buchholz,110000030310,Pankow
+Late,20:23:08,Karl-Marx-Allee-Nord,110000020202,Friedrichshain-Kreuzberg
+Wrong product,23:18:16,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,08:59:40,Oberschöneweide,110000090909,Treptow-Köpenick
+Other,00:01:59,Spandau Mitte,110000050501,Spandau
+Late,14:42:10,Neue Kantstraße,110000040405,Charlottenburg-Wilmersdorf
+Late,16:05:08,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,10:06:56,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Late,17:00:23,Buckow Nord,110000080803,Neukölln
+Late,17:29:02,Bohnsdorf,110000090908,Treptow-Köpenick
+Other,11:44:42,Alexanderplatz,110000010101,Mitte
+Late,12:10:57,Halensee,110000040407,Charlottenburg-Wilmersdorf
+Damaged Product,17:52:52,"Bezirk (Fh-Kb), nicht zuzuordnen",110000020202,Friedrichshain-Kreuzberg
+Late,08:37:48,Friedrichshagen,110000090911,Treptow-Köpenick
+Other,21:33:25,Alt-Hohenschönhausen Nord,110000111110,Lichtenberg
+Damaged Product,08:01:52,Hellersdorf-Süd,110000101005,Marzahn-Hellersdorf
+Other,05:19:33,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Wrong product,14:50:29,südliche Luisenstadt,110000020202,Friedrichshain-Kreuzberg
+Other,19:19:32,Schöneberg-Nord,110000070701,Tempelhof-Schöneberg
+Other,22:57:35,Gropiusstadt,110000080805,Neukölln
+Late,17:04:16,Schönholz/Wilhelmsruh/Rosenthal,110000030310,Pankow
+Other,20:31:10,Rudow,110000080804,Neukölln
+Late,17:37:52,Neu Lichtenberg,110000111109,Lichtenberg
+Damaged Product,03:17:43,Müggelheim,110000090914,Treptow-Köpenick
+Damaged Product,02:39:47,Köllnische Heide,110000080801,Neukölln
+Other,00:48:10,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Damaged Product,04:51:25,Marzahn-Nord,110000101001,Marzahn-Hellersdorf
+Late,11:15:36,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Missing Product,11:11:33,Alexanderplatz,110000010101,Mitte
+Damaged Product,21:44:07,Köpenick-Süd,110000090910,Treptow-Köpenick
+Late,17:07:02,Regierungsviertel,110000010104,Mitte
+Late,22:30:02,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Wrong product,13:11:40,Köpenick-Süd,110000090910,Treptow-Köpenick
+Other,07:08:42,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Missing Product,10:26:34,Alexanderplatz,110000010101,Mitte
+Damaged Product,06:32:21,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Wrong product,13:10:06,Buch,110000030309,Pankow
+Damaged Product,10:09:42,Rudow,110000080804,Neukölln
+Damaged Product,12:37:45,Marienfelde,110000070705,Tempelhof-Schöneberg
+Other,00:45:28,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Missing Product,21:33:26,Friedenau,110000070702,Tempelhof-Schöneberg
+Other,20:29:43,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Missing Product,11:08:55,Alexanderplatz,110000010101,Mitte
+Missing Product,09:48:26,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Late,10:33:43,"Bezirk (Lb), nicht zuzuordnen",110000111109,Lichtenberg
+Late,20:41:57,Alexanderplatz,110000010101,Mitte
+Late,23:34:40,Grunewald,110000040404,Charlottenburg-Wilmersdorf
+Damaged Product,17:17:32,MV 1 - Märkisches Viertel,110000121210,Reinickendorf
+Other,10:01:52,Alexanderplatz,110000010101,Mitte
+Other,00:46:09,Prenzlauer Berg Nord,110000030301,Pankow
+Damaged Product,14:18:00,Südliche Friedrichstadt,110000020202,Friedrichshain-Kreuzberg
+Late,22:07:00,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Late,23:58:28,Barstraße,110000040402,Charlottenburg-Wilmersdorf
+Wrong product,08:02:42,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Late,20:12:22,Neu Lichtenberg,110000111109,Lichtenberg
+Late,09:57:05,Brunnenstraße Nord,110000010101,Mitte
+Late,08:48:55,Siemensstadt,110000050503,Spandau
+Missing Product,05:21:26,Gropiusstadt,110000080805,Neukölln
+Damaged Product,22:48:55,"Bezirk (Mi), nicht zuzuordnen",110000010101,Mitte
+Late,00:59:34,Heerstrasse,110000040405,Charlottenburg-Wilmersdorf
+Damaged Product,03:18:57,Düsseldorfer Straße,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,00:28:32,Drakestr.,110000060602,Steglitz-Zehlendorf
+Damaged Product,16:26:58,"Bezirk (Pk), nicht zuzuordnen",110000030302,Pankow
+Damaged Product,14:41:15,Grünau,110000090913,Treptow-Köpenick
+Missing Product,11:40:45,Alexanderplatz,110000010101,Mitte
+Wrong product,03:17:18,Müggelheim,110000090914,Treptow-Köpenick
+Missing Product,11:56:46,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Wrong product,18:06:25,Lichtenrade,110000070706,Tempelhof-Schöneberg
+Other,13:09:34,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Other,03:28:44,Neuköllner Mitte/Zentrum,110000080801,Neukölln
+Damaged Product,10:34:50,Frankfurter Allee Nord,110000020202,Friedrichshain-Kreuzberg
+Late,12:12:13,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Damaged Product,00:25:41,Nord 1 - Frohnau/Hermsdorf,110000121211,Reinickendorf
+Other,16:46:55,Neuköllner Mitte/Zentrum,110000080801,Neukölln
+Late,03:54:08,Siemensstadt,110000050503,Spandau
+Other,11:54:48,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Late,11:16:32,Adlershof,110000090907,Treptow-Köpenick
+Other,18:22:11,"Bezirk (Lb), nicht zuzuordnen",110000111109,Lichtenberg
+Damaged Product,14:53:06,Heerstraße Nord,110000050504,Spandau
+Missing Product,11:16:04,Alexanderplatz,110000010101,Mitte
+Damaged Product,17:17:01,"Malchow, Wartenberg und Falkenberg",110000111101,Lichtenberg
+Other,13:45:23,Pankow Süd,110000030307,Pankow
+Damaged Product,07:12:21,Baumschulenweg,110000090903,Treptow-Köpenick
+Late,03:25:03,Volkspark Wilmersdorf,110000040402,Charlottenburg-Wilmersdorf
+Wrong product,11:49:03,Heerstrasse,110000040405,Charlottenburg-Wilmersdorf
+Late,19:01:18,Brunsbütteler Damm,110000050504,Spandau
+Late,13:20:12,Charlottenburg-Nord,110000040406,Charlottenburg-Wilmersdorf
+Other,14:49:17,Rummelsburger Bucht,110000020201,Lichtenberg
+Damaged Product,19:04:48,Drakestr.,110000060602,Steglitz-Zehlendorf
+Damaged Product,19:15:30,Schöneberg-Süd,110000070701,Tempelhof-Schöneberg
+Missing Product,03:01:28,Kantstraße,110000040401,Charlottenburg-Wilmersdorf
+Late,20:18:55,Köpenick-Nord,110000090910,Treptow-Köpenick
+Damaged Product,23:24:56,Neu Lichtenberg,110000111109,Lichtenberg
+Missing Product,06:59:25,Frankfurter Allee Nord,110000020202,Friedrichshain-Kreuzberg
+Late,22:45:32,Hellersdorf-Ost,110000101005,Marzahn-Hellersdorf
+Late,12:37:04,Siemensstadt,110000050503,Spandau
+Other,05:20:10,Dammvorstadt,110000090910,Treptow-Köpenick
+Late,14:44:52,nördliche Luisenstadt,110000020202,Friedrichshain-Kreuzberg
+Missing Product,23:46:38,Nord 1 - Frohnau/Hermsdorf,110000121211,Reinickendorf
+Damaged Product,05:44:48,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Damaged Product,08:17:15,Mierendorffplatz,110000040401,Charlottenburg-Wilmersdorf
+Other,17:34:38,Marzahn-Mitte,110000101001,Marzahn-Hellersdorf
+Wrong product,02:10:06,Mahlsdorf,110000101004,Marzahn-Hellersdorf
+Late,14:34:42,Nord 1 - Frohnau/Hermsdorf,110000121211,Reinickendorf
+Late,02:12:13,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Other,11:35:29,Alexanderplatz,110000010101,Mitte
+Other,04:40:52,Hellersdorf-Süd,110000101005,Marzahn-Hellersdorf
+Late,17:00:23,Buckow Nord,110000080803,Neukölln
+Late,11:58:57,nördliche Luisenstadt,110000020202,Friedrichshain-Kreuzberg
+Late,10:08:47,Oberschöneweide,110000090909,Treptow-Köpenick
+Late,08:24:36,Alt-Treptow,110000090901,Treptow-Köpenick
+Damaged Product,21:34:52,Lichtenrade,110000070706,Tempelhof-Schöneberg
+Late,15:57:06,"Bezirk (St-Zd), nicht zuzuordnen",110000060606,Steglitz-Zehlendorf
+Missing Product,19:58:06,Otto-Suhr-Allee,110000040401,Charlottenburg-Wilmersdorf
+Other,21:10:43,Köpenick-Süd,110000090910,Treptow-Köpenick
+Wrong product,10:33:49,Fennpfuhl,110000111111,Lichtenberg
+Late,16:04:09,Helmholtzplatz,110000030301,Pankow
+Wrong product,05:03:06,Marzahn-Mitte,110000101001,Marzahn-Hellersdorf
+Missing Product,23:49:55,Buch,110000030309,Pankow
+Other,16:55:05,Buch,110000030309,Pankow
+Other,09:33:26,Bohnsdorf,110000090908,Treptow-Köpenick
+Missing Product,17:48:48,Westend,110000040405,Charlottenburg-Wilmersdorf
+Other,13:34:22,Dammvorstadt,110000090910,Treptow-Köpenick
+Damaged Product,11:23:17,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Other,10:20:54,Friedrichsfelde Süd,110000111101,Lichtenberg
+Other,06:57:04,Moabit West,110000010102,Mitte
+Missing Product,15:22:47,Tempelhofer Vorstadt,110000020202,Friedrichshain-Kreuzberg
+Late,20:50:45,Lichtenrade,110000070706,Tempelhof-Schöneberg
+Wrong product,01:15:55,Regierungsviertel,110000010104,Mitte
+Damaged Product,17:02:02,Pankow Süd,110000030307,Pankow
+Missing Product,21:26:31,"Bezirk (Tp-Kp), nicht zuzuordnen",110000090910,Treptow-Köpenick
+Late,01:18:59,"Bezirk (Th-Sb), nicht zuzuordnen",110000070704,Tempelhof-Schöneberg
+Other,11:09:06,Alexanderplatz,110000010101,Mitte
+Wrong product,00:21:22,Barstraße,110000040402,Charlottenburg-Wilmersdorf
+Other,22:54:25,Plänterwald,110000090902,Treptow-Köpenick
+Missing Product,11:55:48,Alexanderplatz,110000010101,Mitte
+Late,14:29:27,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Wrong product,04:46:24,"Bezirk (Lb), nicht zuzuordnen",110000111109,Lichtenberg
+Missing Product,10:11:23,Alt-Lichtenberg,110000111103,Lichtenberg
+Late,20:08:07,Prenzlauer Berg Südwest,110000030310,Pankow
+Damaged Product,16:39:26,Weißensee,110000030302,Pankow
+Damaged Product,16:04:17,Barstraße,110000040402,Charlottenburg-Wilmersdorf
+Damaged Product,05:41:34,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Missing Product,11:40:37,Alexanderplatz,110000010101,Mitte
+Damaged Product,23:22:35,Regierungsviertel,110000010104,Mitte
+Late,09:53:47,Brunnenstraße Süd,110000010101,Mitte
+Damaged Product,03:27:00,Alexanderplatz,110000010101,Mitte
+Missing Product,11:10:00,Alexanderplatz,110000010101,Mitte
+Missing Product,11:29:04,Alexanderplatz,110000010101,Mitte
+Wrong product,03:10:06,"Bezirk (Fh-Kb), nicht zuzuordnen",110000020202,Friedrichshain-Kreuzberg
+Wrong product,03:58:35,Bohnsdorf,110000090908,Treptow-Köpenick
+Damaged Product,07:44:06,Blankenfelde/Niederschönhausen,110000030310,Pankow
+Missing Product,04:44:17,Ostpreußendamm,110000060602,Steglitz-Zehlendorf
+Damaged Product,23:12:40,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Missing Product,10:44:47,Alexanderplatz,110000010101,Mitte
+Missing Product,03:25:25,Rudow,110000080804,Neukölln
+Damaged Product,17:23:51,Altglienicke,110000090906,Treptow-Köpenick
+Late,15:42:03,Buckow,110000080803,Neukölln
+Late,13:28:19,Wiesbadener Straße,110000040402,Charlottenburg-Wilmersdorf
+Missing Product,15:45:32,MV 2 - Rollbergsiedlung,110000121201,Reinickendorf
+Missing Product,10:10:56,Alexanderplatz,110000010101,Mitte
+Damaged Product,02:56:57,Kaulsdorf,110000101003,Marzahn-Hellersdorf
+Other,13:23:12,"Bezirk (Sp), nicht zuzuordnen",110000050501,Spandau
+Damaged Product,09:41:33,Britz,110000080802,Neukölln
+Wrong product,10:02:34,Reuterstraße,110000080801,Neukölln
+Late,22:11:35,"Bezirk (Ch-Wi), nicht zuzuordnen",110000040405,Charlottenburg-Wilmersdorf
+Other,00:45:12,Buch,110000030309,Pankow
+Other,05:39:08,Lankwitz,110000060603,Steglitz-Zehlendorf
+Missing Product,11:48:14,Alexanderplatz,110000010101,Mitte
+Late,17:48:01,Schloßstr.,110000060601,Steglitz-Zehlendorf
+Other,10:01:53,Alexanderplatz,110000010101,Mitte
+Missing Product,11:31:45,Alexanderplatz,110000010101,Mitte
+Other,04:28:28,Tempelhof,110000070703,Tempelhof-Schöneberg
+Damaged Product,18:30:02,Haselhorst,110000050502,Spandau
+Other,13:00:34,Friedrichshagen,110000090911,Treptow-Köpenick
+Other,04:07:35,"Bezirk (Fh-Kb), nicht zuzuordnen",110000020202,Friedrichshain-Kreuzberg
+Late,15:17:30,Heerstraße Nord,110000050504,Spandau
+Damaged Product,00:58:02,Schloß Charlottenburg,110000040401,Charlottenburg-Wilmersdorf
+Missing Product,10:48:29,Alexanderplatz,110000010101,Mitte
+Missing Product,02:49:58,Britz,110000080802,Neukölln
+Damaged Product,08:19:19,Karl-Marx-Allee-Nord,110000020202,Friedrichshain-Kreuzberg
+Late,01:02:52,Schillerpromenade,110000080801,Neukölln
+Other,18:23:38,Haselhorst,110000050502,Spandau
+Wrong product,13:50:31,Weißensee,110000030302,Pankow
+Missing Product,11:37:02,Alexanderplatz,110000010101,Mitte
+Late,01:27:10,Regierungsviertel,110000010104,Mitte

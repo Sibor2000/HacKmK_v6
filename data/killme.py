@@ -65,9 +65,14 @@ def main():
             print(f"No polygon found for the point ({lat}, {lon}).")
             break
         waaa.loc[entry, 'sch'] = polygon_sch
+        # Find the location name in data
+        for polygon in data['features']:
+            if polygon['properties']['sch'] == polygon_sch:
+                waaa.loc[entry, 'Location'] = polygon['properties']['name']
+                break
 
     # Count by sch and export (sch, count)
-    waaa = waaa.groupby('sch').size().reset_index(name='count')
+    waaa = waaa.groupby(['sch', 'Location']).size().reset_index(name='count')
     waaa.to_csv("waaa_count.csv", index=False)
 
 if __name__ == "__main__":
