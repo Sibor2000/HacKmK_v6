@@ -66,15 +66,22 @@ tooltips = folium.FeatureGroup("Tooltips")
 for feature in smaller_districts_copy['features']:
     # Find the count for the district code in the DataFrame
     count_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['count']
+    name_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['Location']
     # Check if the count series is not empty
     if not count_series.empty:
         count = count_series.values[0]
     else:
         # If the district code is not found in the DataFrame, set count to 0
         count = 0
+
+    if not name_series.empty:
+        name = name_series.values[0]
+    else:
+        # If the district code is not found in the DataFrame, set count to 0
+        name = ""
     folium.GeoJson(
         feature,
-        tooltip=f"<b>District Code:</b> {feature['properties']['sch']} <br><b>Complaint Count:</b> {count}",
+        tooltip=f"<b>District Code:</b> {name} <br><b>Complaint Count:</b> {count}",
         style_function=lambda x: {
             'color': 'gray',  # Change the border color to gray
             'fillOpacity': 0,  # Make the fill transparent
