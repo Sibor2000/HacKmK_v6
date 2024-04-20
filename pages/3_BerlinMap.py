@@ -56,6 +56,7 @@ folium.Choropleth(
     fill_color='OrRd',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
     fill_opacity=0.7,  # Opacity of the fill color
     line_opacity=0.2,  # Opacity of the boundary lines
+    line_color="black",
     nan_fill_color="gray",
     nan_fill_opacity=0.4,
     legend_name='Number of Complaints'  # Name of the legend
@@ -73,6 +74,11 @@ for feature in smaller_districts_copy['features']:
     folium.GeoJson(
         feature,
         tooltip=f"<b>District Code:</b> {feature['properties']['sch']} <br><b>Complaint Count:</b> {count}",
+        style_function=lambda x: {
+            'color': 'gray',  # Change the border color to gray
+            'fillOpacity': 0,  # Make the fill transparent
+        }
+
         ).add_to(fmap)
 
 # folium.GeoJson(smaller_districts).add_to(fmap)
