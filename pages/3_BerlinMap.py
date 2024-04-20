@@ -62,6 +62,7 @@ folium.Choropleth(
     legend_name='Number of Complaints'  # Name of the legend
 ).add_to(fmap)
 
+tooltips = folium.FeatureGroup("Tooltips")
 for feature in smaller_districts_copy['features']:
     # Find the count for the district code in the DataFrame
     count_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['count']
@@ -79,7 +80,9 @@ for feature in smaller_districts_copy['features']:
             'fillOpacity': 0,  # Make the fill transparent
         }
 
-        ).add_to(fmap)
+        ).add_to(tooltips)
+    
+    tooltips.add_to(fmap)
 
 # folium.GeoJson(smaller_districts).add_to(fmap)
 
