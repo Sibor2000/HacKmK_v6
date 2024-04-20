@@ -1,6 +1,8 @@
 import json
+import copy
 import folium
 import streamlit as st
+import pandas as pd
 from streamlit_folium import st_folium
 from geopy.geocoders import Nominatim
 
@@ -24,7 +26,30 @@ with open(berlin_districts_geojson, 'r', encoding='utf-8') as f:
 with open(berlin_hoods_geojson, 'r', encoding='utf-8') as f:
     smaller_districts = json.load(f)
 
-folium.GeoJson(smaller_districts).add_to(fg)
+smaller_districts_copy = copy.deepcopy(smaller_districts)
+
+complaints_df = pd.read_csv("./data/complaints.csv")
+
+for feature in smaller_districts_copy['features']:
+    feature['properties']['sch'] = int(feature['properties']['sch'][6:])
+    # print(feature['properties']['sch'])
+
+district_counts = complaints_df.groupby('Code').size().reset_index(name='count')
+
+
+folium.Choropleth(
+    geo_data=smaller_districts_copy,
+    data=district_counts,  # DataFrame containing metric values for each district
+    columns=['Code', 'count'],  # Specify the column names
+    key_on='properties.sch',  # Match with the new property containing the desired digits
+    fill_color='YlGn',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
+    fill_opacity=0.7,  # Opacity of the fill color
+    line_opacity=0.2,  # Opacity of the boundary lines
+    legend_name='Number of Complaints',  # Name of the legend
+).add_to(fmap)
+
+folium.GeoJson(smaller_districts).add_to(fmap)
+
 
 larger_districts_fg = folium.FeatureGroup(name="Larger Districts")
 for feature in larger_districts['features']:
