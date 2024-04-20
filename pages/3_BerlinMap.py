@@ -67,6 +67,7 @@ def add_complaint_geojson(feature, complaint_type):
         name = name_series.values[0]
     else:
         name = 0
+    # print(count_series, name)
     folium.GeoJson(
         feature,
         tooltip=f"<b>District Code:</b> {name} <br><b>Complaint Count ({complaint_type}):</b> {count}",
@@ -78,9 +79,17 @@ def add_complaint_geojson(feature, complaint_type):
 
 complaints_tooltips.add_to(fmap)
 
+# Process waaa, filter counts by selected complaint type and sch
+types = waaa_detailed['Complaint'].unique() # Add All
+types = list(types)
+types.append("All")
+selected_complaint_type = st.selectbox("Select Complaint Type", types)
+new_waaa = waaa_detailed[(waaa_detailed['Complaint'] == selected_complaint_type) | (selected_complaint_type == "All")]
+new_waaa = new_waaa.groupby('sch').size().reset_index(name='count')
+
 folium.Choropleth(
     geo_data=smaller_districts_copy,
-    data=waaa,  # DataFrame containing metric values for each district
+    data=new_waaa,  # DataFrame containing metric values for each district
     columns=['sch', 'count'],  # Specify the column names
     key_on='properties.sch',  # Path to the feature property containing the district code
     fill_color='OrRd',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
@@ -95,7 +104,10 @@ folium.Choropleth(
 tooltips = folium.FeatureGroup("Tooltips")
 for feature in smaller_districts_copy['features']:
     # Find the count for the district code in the DataFrame
-    count_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['count']
+    if selected_complaint_type == "All":
+        count_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['count']
+    else:
+        count_series = new_waaa[new_waaa['sch'] == int(feature['properties']['sch'])]['count']
     name_series = waaa[waaa['sch'] == int(feature['properties']['sch'])]['Location']
     # Check if the count series is not empty
     if not count_series.empty:
@@ -123,11 +135,9 @@ for feature in smaller_districts_copy['features']:
 
 # folium.GeoJson(smaller_districts).add_to(fmap)
 
-selected_complaint_type = st.selectbox("Select Complaint Type", waaa_detailed['Complaint'].unique())
-
 # Add GeoJson layers for each complaint type
-for feature in smaller_districts_copy['features']:
-    add_complaint_geojson(feature, selected_complaint_type)
+# for feature in smaller_districts_copy['features']:
+#     add_complaint_geojson(feature, selected_complaint_type)
 
 
 larger_districts_fg = folium.FeatureGroup(name="Larger Districts")
