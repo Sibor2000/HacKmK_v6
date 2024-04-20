@@ -51,32 +51,6 @@ waaa_detailed = pd.read_csv("./data/waaa_detailed.csv")
 
 complaints_tooltips = folium.FeatureGroup("Tooltips for a certain complaint")
 
-# Function to manually calculate the count for each complaint type
-def calculate_complaint_count(feature, complaint_type):
-    count = 0
-    for index, row in waaa_detailed.iterrows():
-        if row['sch'] == int(feature['properties']['sch']) and row['Complaint'] == complaint_type:
-            count += 1
-    return count
-
-def add_complaint_geojson(feature, complaint_type):
-    count_series = calculate_complaint_count(feature, complaint_type)
-    name_series = waaa_detailed[(waaa_detailed['sch'] == int(feature['properties']['sch'])) & (waaa_detailed['Complaint'] == complaint_type)]['Location']
-
-    if not name_series.empty:
-        name = name_series.values[0]
-    else:
-        name = 0
-    # print(count_series, name)
-    folium.GeoJson(
-        feature,
-        tooltip=f"<b>District Code:</b> {name} <br><b>Complaint Count ({complaint_type}):</b> {count}",
-        style_function=lambda x: {
-            'color': 'gray',
-            'fillOpacity': 0,
-        }
-    ).add_to(complaints_tooltips)
-
 complaints_tooltips.add_to(fmap)
 
 # Process waaa, filter counts by selected complaint type and sch
@@ -92,7 +66,7 @@ folium.Choropleth(
     data=new_waaa,  # DataFrame containing metric values for each district
     columns=['sch', 'count'],  # Specify the column names
     key_on='properties.sch',  # Path to the feature property containing the district code
-    fill_color='OrRd',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
+    fill_color='RdPu',  # Color scale (e.g., 'YlGn', 'YlGnBu', 'PuBu', 'RdPu', etc.)
     fill_opacity=0.7,  # Opacity of the fill color
     line_opacity=0.2,  # Opacity of the boundary lines
     line_color="black",
@@ -158,7 +132,13 @@ for feature in larger_districts['features']:
     if 'Gemeinde_name' in feature['properties']:
         district_name = feature['properties']['Gemeinde_name']
         if district_name in selected_district_names:
-            folium.GeoJson(feature).add_to(selected_districts_fg)
+            folium.GeoJson(
+                feature,
+                style_function=lambda x: {
+                    'color': 'black',  # Change the border color to gray
+                    'fillOpacity': 0.2,  # Make the fill transparent
+                }
+                ).add_to(selected_districts_fg)
 
 smaller_districts_by_code = {}
 for feature in smaller_districts['features']:
@@ -181,7 +161,7 @@ for fg in smaller_districts_by_code.values():
 # fg.add_to(fmap)
 # larger_districts_fg.add_to(fmap)
 
-# selected_districts_fg.add_to(fmap)
+selected_districts_fg.add_to(fmap)
 
 folium.LayerControl().add_to(fmap)
 
