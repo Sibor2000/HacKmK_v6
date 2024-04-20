@@ -43,7 +43,17 @@ data['Danger Score'] = danger_score
 location_scores = data.groupby('Location')['Danger Score'].mean()
 # Sort the locations by average danger score
 location_scores = location_scores.sort_values(ascending=False)
-print(location_scores)
+
+dfx = pd.read_csv("waaa_detailed.csv")
+# New empty dataframe
+dfy = pd.DataFrame(columns=['sch', 'danger_score'])
+for i in range(len(dfx)):
+    code = dfx['Location'][i]
+    danger_score = location_scores[code]
+    # Find sch in the row that has a matching location
+    sch = dfx[dfx['Location'] == code]['sch'].values[0]
+    dfy = pd.concat([dfy, pd.DataFrame({'sch': [sch], 'danger_score': [danger_score]})], ignore_index=True)
+dfy.to_csv("waaa_danger.csv", index=False)
 
 # Plot the average danger scores on the 0-1 scale
 import matplotlib.pyplot as plt
