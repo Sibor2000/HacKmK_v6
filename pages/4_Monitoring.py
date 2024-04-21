@@ -67,8 +67,12 @@ col1, col2 = st.columns([1, 1])
 
 with col2:
     st.subheader("Complaints")
-    # Sort the complaints by time, only select the middle 30
-    for i, row in df.sort_values("Time").iloc[210:240].iterrows():
+    complaint_types = df["Complaint"].unique().tolist()
+    complaint_types.insert(0, "All")
+    selected_complaint_type = st.selectbox("Select Complaint Type", complaint_types)
+    shown_df = df if selected_complaint_type == "All" else df[df["Complaint"] == selected_complaint_type]
+    # Sort the complaints by time, only select max 30
+    for i, row in shown_df.sort_values("Time", ascending=True).head(30).iterrows():
         emoji = complaint_emojis.get(row["Complaint"], "❓")
         with st.container(border=True):
             col11, col12 = st.columns([1, 6])
@@ -80,8 +84,10 @@ with col2:
 with col1:
     st.subheader("Audit Events")
     # Show a progress spinner for 4 seconds
-    with st.spinner("Loading audit events..."):
-        time.sleep(4)
+    if st.session_state.get("loading_audits", True):
+        with st.spinner("Loading audit events..."):
+            time.sleep(4)
+            st.session_state["loading_audits"] = False
 
     audits = [a for a in getAudits()]
     st.warning(f"Found {len(audits)} unusual complaint patterns!")
