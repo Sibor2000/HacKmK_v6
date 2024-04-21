@@ -12,8 +12,9 @@ geolocator = Nominatim(user_agent="my_app")
 # Get location coordinates for Berlin
 location = geolocator.geocode("Berlin")
 
+st.set_page_config(page_title="Konnekt - Berlin", page_icon=":car:", layout="wide")
 
-st.set_page_config(page_title="Konnekt - Berlin's District", page_icon=":car:", layout="wide")
+st.title("Berlin Districts")
 
 fmap = folium.Map(location=[location.latitude,location.longitude], zoom_start=10)
 
